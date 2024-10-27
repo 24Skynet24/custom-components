@@ -1,7 +1,8 @@
 <script lang="ts" setup>
 import LogoLink from "@/ui/links/LogoLink.vue"
+import {LinkRouteType} from "@/types/index.ts"
 
-const navRoutes = [
+const navRoutes: Array<LinkRouteType> = [
   {
     url: '/',
     name: 'Home'
