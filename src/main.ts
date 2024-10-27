@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import router from "@/pages/index.ts"
 import { createPinia } from 'pinia'
+import { DatePicker } from 'ant-design-vue'
 
 import '@fontsource/roboto/400.css'
 import '@fontsource/roboto/500.css'
@@ -14,4 +15,5 @@ const pinia = createPinia()
 createApp(App)
     .use(router)
     .use(pinia)
+    .use(DatePicker)
     .mount('#app')
