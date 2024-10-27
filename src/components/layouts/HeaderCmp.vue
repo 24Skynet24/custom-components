@@ -22,7 +22,7 @@ const navRoutes: Array<LinkRouteType> = [
       <nav role="navigation">
         <ul class="flex items-center gap-8" role="list">
           <li v-for="link in navRoutes" :key="`header_link_${link.name}`">
-            <router-link :to="link.url" role="link">
+            <router-link :to="link.url" role="link" active-class="nav__link_active" exact>
               {{ link.name }}
             </router-link>
           </li>
@@ -43,6 +43,11 @@ header {
   nav {
     a {
       font-size: 1.8rem;
+      transition: color .2s;
+    }
+
+    .nav__link_active {
+      color: var(--custom-green);
     }
   }
 
