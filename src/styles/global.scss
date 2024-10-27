@@ -1,4 +1,6 @@
 @import "./tailwind.css";
+@import "classes";
+@import "variables";
 
 * {
   margin: 0;
@@ -13,4 +15,8 @@ html, body, #app {
 
 html {
   font-size: 10px;
+}
+
+input, button, textarea, a {
+  outline: none;
 }
