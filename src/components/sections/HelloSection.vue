@@ -1,7 +1,3 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
   <section class="flex-center">
     <div class="section__inner flex-center flex-col">
@@ -18,7 +14,6 @@
 <style scoped lang="scss">
 .section__inner {
   width: 75rem;
-  padding-top: 4rem;
 
   h1 {
     font-size: 4.8rem;

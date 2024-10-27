@@ -32,3 +32,11 @@ const cards: ComponentCardType[] = [
     </custom-section>
   </main>
 </template>
+
+<style lang="scss" scoped>
+
+main {
+  padding: 4rem 0;
+}
+
+</style>
