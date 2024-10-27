@@ -1,0 +1,9 @@
+.container {
+  width: 144rem;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
