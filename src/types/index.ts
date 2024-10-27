@@ -3,7 +3,14 @@ interface LinkRouteType {
     name: string
 }
 
+interface ComponentCardType {
+    link: LinkRouteType
+    title: string
+    img: string
+}
+
 
 export {
-    LinkRouteType
+    ComponentCardType,
+    LinkRouteType,
 }
