@@ -6,7 +6,15 @@ import FooterCmp from "@components/layouts/FooterCmp.vue"
 <template>
   <div>
     <header-cmp/>
-    <router-view/>
+    <div id="pages">
+      <router-view/>
+    </div>
     <footer-cmp/>
   </div>
 </template>
+
+<style scoped lang="scss">
+#pages {
+  min-height: 80vh;
+}
+</style>
