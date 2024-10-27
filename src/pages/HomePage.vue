@@ -13,7 +13,7 @@ const cards: ComponentCardType[] = [
       name: 'more',
     },
     title: 'Test',
-    img: ''
+    img: './src/images/test-gif.gif'
   }
 ]
 </script>
