@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import router from "@/pages/index.ts"
 import { createPinia } from 'pinia'
 import { DatePicker } from 'ant-design-vue'
-
+import 'ant-design-vue/dist/reset.css';
 import '@fontsource/roboto/400.css'
 import '@fontsource/roboto/500.css'
 import '@fontsource/roboto/700.css'
