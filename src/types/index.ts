@@ -1,16 +1,15 @@
-interface LinkRouteType {
+export interface LinkRouteType {
     url: string
     name: string
 }
 
-interface ComponentCardType {
+export interface ComponentCardType {
     link: LinkRouteType
     title: string
     img: string
 }
 
-
-export {
-    ComponentCardType,
-    LinkRouteType,
+export interface ComponentsListType {
+    groupName: string,
+    groupList: LinkRouteType[]
 }
