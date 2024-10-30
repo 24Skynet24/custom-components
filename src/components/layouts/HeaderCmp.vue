@@ -15,14 +15,14 @@ const navRoutes: Array<LinkRouteType> = [
 </script>
 
 <template>
-  <header class="header" role="banner">
+  <header class="header">
     <div class="container flex items-center justify-between">
       <logo-link/>
 
-      <nav role="navigation">
-        <ul class="flex items-center gap-8" role="list">
+      <nav>
+        <ul class="flex items-center gap-8">
           <li v-for="link in navRoutes" :key="`header_link_${link.name}`">
-            <router-link :to="link.url" role="link" active-class="nav__link_active" exact>
+            <router-link :to="link.url" active-class="nav__link_active" exact>
               {{ link.name }}
             </router-link>
           </li>
@@ -30,7 +30,7 @@ const navRoutes: Array<LinkRouteType> = [
       </nav>
 
       <!-- Refactor search -->
-      <input type="search" placeholder="Search" class="test-search" role="searchbox">
+      <input type="search" placeholder="Search" class="test-search">
     </div>
   </header>
 </template>
