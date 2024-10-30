@@ -39,6 +39,7 @@ const navRoutes: Array<LinkRouteType> = [
 
 header {
   padding: 1rem 0;
+  border-bottom: 1px solid var(--custom-green);
 
   nav {
     a {
